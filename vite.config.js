@@ -4,7 +4,7 @@ import { defineConfig } from 'vite'
 export default defineConfig({
   base: '/product_fr_React/',
   build: {
-    outDir: 'docs'
+    outDir: 'dist'
   },
   plugins: [react()],
   server: {
