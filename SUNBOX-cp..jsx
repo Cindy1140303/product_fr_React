@@ -268,10 +268,10 @@ const App = () => {
       <footer className="bg-gray-800 text-gray-300 pt-12 pb-6">
         <div className="max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-12 mb-8 border-b border-gray-700 pb-8">
           <div>
-            <h4 className="text-white font-bold mb-4">OO 杉語股份有限公司</h4>
+            <h4 className="text-white font-bold mb-4">OO股份有限公司</h4>
             <ul className="space-y-2 text-sm">
-              <li className="flex gap-2 items-start"><MapPin size={16} className="mt-1 flex-shrink-0" /> 新北市中和區建八路191號</li>
-              <li className="flex gap-2 items-center"><Phone size={16} /> 02-8221-7368</li>
+              <li className="flex gap-2 items-start"><MapPin size={16} className="mt-1 flex-shrink-0" /> 新北市oo區oo路oo號</li>
+              <li className="flex gap-2 items-center"><Phone size={16} /> 02-0000-0000</li>
               <li className="flex gap-2 items-center"><Mail size={16} /> sales@sunbox.com.tw</li>
             </ul>
           </div>
