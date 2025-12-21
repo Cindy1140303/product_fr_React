@@ -1,11 +1,11 @@
-name: Deploy to GitHub Pages
+name: Build Project
 
 on:
   push:
     branches: [ main ]
 
 jobs:
-  build-and-deploy:
+  build:
     runs-on: ubuntu-latest
 
     steps:
@@ -22,11 +22,3 @@ jobs:
 
     - name: Build project
       run: npm run build
-
-    - name: Commit and push docs folder
-      run: |
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add docs/
-        git commit -m "Update docs folder from build" || true
-        git push
