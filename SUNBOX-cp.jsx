@@ -270,9 +270,9 @@ const App = () => {
           <div>
             <h4 className="text-white font-bold mb-4">OO股份有限公司</h4>
             <ul className="space-y-2 text-sm">
-              <li className="flex gap-2 items-start"><MapPin size={16} className="mt-1 flex-shrink-0" /> 新北市oo區oo路oo號</li>
+              <li className="flex gap-2 items-start"><MapPin size={16} className="mt-1 flex-shrink-0" /> oo市oo區oo路oo號</li>
               <li className="flex gap-2 items-center"><Phone size={16} /> 02-0000-0000</li>
-              <li className="flex gap-2 items-center"><Mail size={16} /> sales@sunbox.com.tw</li>
+              <li className="flex gap-2 items-center"><Mail size={16} /> sales@oo.com.tw</li>
             </ul>
           </div>
           <div>
