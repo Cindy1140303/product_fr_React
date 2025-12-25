@@ -196,7 +196,7 @@ const App = () => {
 
             <div className="mt-8 bg-blue-50 border border-blue-100 p-4 rounded">
               <h4 className="font-bold text-blue-900 border-b border-blue-200 pb-2 mb-3">台銀專區</h4>
-              <p className="text-xs text-blue-700 leading-relaxed">提供共同供應契約產品，採購案號：LP-980056</p>
+              <p className="text-xs text-blue-700 leading-relaxed">提供共同供應契約產品，採購案號：AA-000000</p>
               <button className="mt-4 w-full bg-blue-900 text-white py-2 text-sm rounded hover:bg-blue-800">進入專區</button>
             </div>
           </aside>
