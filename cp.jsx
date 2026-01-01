@@ -49,10 +49,10 @@ const NEWS = [
 ];
 
 const BRANDS = [
-  { name: 'Brand A', img: 'https://via.placeholder.com/133x45?text=Brand+A' },
-  { name: 'Brand B', img: 'https://via.placeholder.com/133x45?text=Brand+B' },
-  { name: 'Brand C', img: 'https://via.placeholder.com/133x45?text=Brand+C' },
-  { name: 'Brand D', img: 'https://via.placeholder.com/133x45?text=Brand+D' },
+  { name: 'O光軟體', img: '/brands/brand-a.png' },
+  { name: 'HK OO', img: '/brands/brand-b.png' },
+  { name: 'CLIMB', img: '/brands/brand-c.png' },
+  { name: 'O霖實驗', img: '/brands/brand-d.png' },
 ];
 
 const App = () => {
@@ -255,7 +255,7 @@ const App = () => {
               <div className="flex flex-wrap gap-4">
                 {BRANDS.map(brand => (
                   <div key={brand.name} className="border p-2 grayscale hover:grayscale-0 transition cursor-pointer bg-white">
-                    <img src={brand.img} alt={brand.name} className="w-[133px] h-[45px] object-contain" />
+                    <img src={brand.img} alt={brand.name} className="w-[120px] h-[120px] object-contain" />
                   </div>
                 ))}
               </div>
