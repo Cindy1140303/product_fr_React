@@ -49,10 +49,10 @@ const NEWS = [
 ];
 
 const BRANDS = [
-  { name: 'O光軟體', img: 'https://via.placeholder.com/120x120?text=Brand+A' },
-  { name: 'HK OO', img: 'https://via.placeholder.com/120x120?text=Brand+B' },
-  { name: 'CLIMB', img: 'https://via.placeholder.com/120x120?text=Brand+C' },
-  { name: 'O霖實驗', img: 'https://via.placeholder.com/120x120?text=Brand+D' },
+  { name: 'O光軟體', img: '/public/brands/1.png' },
+  { name: 'HK OO', img: '/public/brands/2.png' },
+  { name: 'CLIMB', img: '/public/brands/3.png' },
+  { name: 'O霖實驗', img: '/public/brands/4.png' },
 ];
 
 const App = () => {
