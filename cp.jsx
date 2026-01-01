@@ -49,10 +49,10 @@ const NEWS = [
 ];
 
 const BRANDS = [
-  { name: 'O光軟體', img: '/public/brands/1.png' },
-  { name: 'HK OO', img: '/public/brands/2.png' },
-  { name: 'CLIMB', img: '/public/brands/3.png' },
-  { name: 'O霖實驗', img: '/public/brands/4.png' },
+  { name: 'O光軟體', img: '/brands/1.png' },
+  { name: 'HK OO', img: '/brands/2.png' },
+  { name: 'CLIMB', img: '/brands/3.png' },
+  { name: 'O霖實驗', img: '/brands/4.png' },
 ];
 
 const App = () => {
